@@ -1,0 +1,82 @@
+﻿.menukutusu
+{
+	position: absolute; /* ---serbest konumlandırma-- */
+	margin-top: 15px;	/* ---üst dış boşluk -- */
+	left: 2px;			/* ---soldan kaydır -- */
+	top: 89px; 			/* ---üstten kaydır-- */
+	width: 1200px;		/* ---genişlik-- */	
+	height: 50px;		/* ---yükseklik-- */
+	z-index: 5;			/* ---z ekseni konumu -- */
+}
+
+.ustmenu
+{	
+	
+	position:relative;	/* ---göreceli konumlandırma-- */
+	float:left;			/* ---sola yasla-- */
+	margin:0;			/* ---dış boşluk-- */
+	padding:0;			/* ---iç boşluk-- */
+	background-color:#778ca3;	/* ---arka plan renk-- */
+	width: 1200px;				/* ---genişlik-- */
+	height: 49px;		/* ---yükseklik-- */
+	border-bottom:solid 4px #1B9CFC;	/* ---alttan çerçeve renk kalınlık -- */
+	border-top:solid 4px #1B9CFC;
+    top: 0px;
+    left: 0px;
+}
+
+.ustmenu a
+{
+	display:block;	/* ---görüntüleme türleri - */
+	color:#FFF; /* ---yazı rengi-- */
+	text-decoration:none;/* ---yazı dekorasyonu-- */
+	font-weight:650;	/* ---kalinlık incelik değeri-- */
+	font-size:20px;	/* ---yazı boyutu-- */
+	line-height:50px;/* ---satır yüksekliği-- */
+	padding-left:15px;  /* ---soldan iç boşluk-- */
+	padding-right:15px; /* ---sağdan iç boşluk-- */
+	font-family:Verdana, Geneva, sans-serif; /* ---yazı tipi-- */
+}
+
+.ustmenu li
+{
+	position:relative; /* --- göreceli konumlandırma-- */
+	float:left;		/* ---sola yasla-- */
+	margin:0; /* ---dış boşluk-- */
+	padding:0; /* ---iç boşluk-- */
+	border-right:solid 1px #FFFFFF; /* ---çerçeve kalınlık-- */
+	list-style:none;	/* ---stilleri sıfırla-- */
+}
+
+.ustmenu li:hover
+{
+	background:#2980b9; /* ---arka plan renk-- */
+}
+
+.acilirmenu
+{
+	display:none; /* ---görüntüleme türü- */
+	position:absolute; /* ---serbest konumlandırma-- */
+	top:100%; /* ---üstten kaydır-- */
+	left:0; /* ---soldan kaydır-- */
+	background:#3498db; /* ---arkaplan renk --- */
+	padding:0; /* ---iç boşluk-- */
+	width:200px; /* ---genişlik---- */
+}
+
+.acilirmenu li
+{
+	width:200px; /* ---genişlik---- */
+	border-bottom:solid 1px #FFFFFF; /* ---alltan çerçeve kalinlık -- */
+}
+
+.acilirmenu a
+{
+	line-height:40px; /* ---satır yükseklik--- */
+	padding:10px 15px; /* --- iç boşluk -- */
+}
+
+.ustmenu li:hover .acilirmenu
+{
+	display:block; /* ---görüntüleme türü---- */
+}

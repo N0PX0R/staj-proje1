@@ -1,0 +1,110 @@
+﻿<!---------------------Bu Site Sefa ANAR Tarafından Tasarlanmıştır Temiz Kod Kuralına Uyularak ve Açıklamasaı Yapılarak Kodlanmıştır ------------------------>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sablon.master.cs" Inherits="sablon" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="stil/stil.css" type="text/css" rel="Stylesheet"/>
+    <link href="stil/menu.css" type="text/css" rel="Stylesheet"/>
+    <link href="stil/slider.css" type="text/css" rel="Stylesheet"/>
+    <link href="stil/yan-menu.css" type="text/css" rel="stylesheet"/>
+    <link href="stil/icerik.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="govde">
+<!---------------------------------------BAŞLIK BAŞLANGIÇ-------------------------------------->
+            <div class="baslik">
+                 <div class="logo"><a href="Default.aspx"><img src="resimler/logo.jpg" width="101" height="95"/></a></div>
+                 <div class="banner" >Türkiye Cumhuriyeti</div>
+                 <div class="banner1" >Devlet Demiryolları</div>
+                 <div class="sosyalmedya">
+       	              <a target="_blank" href="https://www.facebook.com/tcdd"><img src="resimler/face.png" width="49" height="49" /></a> &nbsp; 
+          	          <a target="_blank" href="https://www.instagram.com/tcddemiryollari"><img src="resimler/insta.png" width="49" height="49"/></a> &nbsp;  
+                      <a target="_blank" href="https://twitter.com/tcddemiryollari"><img src="resimler/twit.png" width="49" height="49" /></a>
+                 </div>
+<!--------------------------------------- MENÜ BAŞLANGIÇ -------------------------------------->
+                 <div class="menukutusu">
+                       <ul class="ustmenu">
+                            <li><a href="Default.aspx">Anasayfa</a>
+ 			 	            <li><a href="">Projeler</a>
+                                <ul class="acilirmenu">
+    				 	            <li><a href="hizlitren.aspx">Hızlı Tren Garı</a></li>
+     			 	 	            <li><a href="sehirici.aspx">Şehiriçi Ulaşım</a></li>
+   				 	            </ul>
+                            </li>
+                            <li><a href="">Tcdd Ailesi</a>
+                                 <ul class="acilirmenu">
+         					        <li><a href="ortaklik.aspx">Bağlı Ortaklıklar</a></li>
+        			   	            <li><a href="istirak.aspx">İştiraklar</a></li>
+   					             </ul>
+  				            </li>
+                            <li><a href="limanlar.aspx">Limanlar</a></li>
+ 			                <li><a href="hakkinda.aspx">Hakkında</a></li>
+ 			                <li><a href="">İletişim</a>
+                                 <ul class="acilirmenu">
+						            <li><a href="genelmudur.aspx">Genel Müdürlük</a></li>
+   						            <li><a href="bolge.aspx">Bölgeler</a></li>
+  					             </ul>
+                            </li>
+                       </ul>
+                 </div>
+<!---------------------------------------MENÜ BİTİŞ -------------------------------------->
+            </div>
+<!---------------------------------------BAŞLIK BİTİŞ -------------------------------------->
+
+
+<!---------------------------------------SLİDER BAŞLANGIÇ ------------------------------------>
+             <div id="slider">
+                  <div class="slayt"><img src="resimler/tren.jpg" /></div>
+                  <div class="slayt"><img src="resimler/baskentray1.jpg"/></div>
+                  <div class="slayt"><img src="resimler/elektrik.jpg" /></div>
+			      <div class="slayt"><img src="resimler/testtreni.jpg" /></div>
+                 <div id="kontrol">
+      			      <a href="#" onclick="onceki()">Geri</a>
+    			      <a href="#" onclick="sonraki()">İleri</a>
+  		         </div>
+                 <script type="text/javascript" src="slider-ayar.js"></script>
+             </div>
+<!---------------------------------------SLİDER BİTİŞ ---------------------------------->
+
+<!---------------------------------------ORTA BÖLÜM BAŞLANGIÇ ---------------------------------->
+      
+      <div class="yanmenukutusu">
+	   	<ul class="solmenu" id="sagmen">
+       		<li><a href="mevzuat.aspx">Mevzuat</a>
+            <li><a href="tarihce.aspx">Tarihçe</a>
+            <li><a href="datem.aspx">Datem</a>
+            <li><a href="egitimfa.aspx">Eğitim Faaliyetleri</a>             
+            <li><a href="etik.aspx">Etik Yönetim</a>
+            <li><a href="lojistik.aspx">Lojistik Merkez</a>
+       </ul>
+	  </div>
+      
+      <div class="icerik">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+      </div>
+       
+      <!---------------------------------------ORTA BÖLÜM BİTİŞ ---------------------------------->
+       
+      <!---------------------------------------ALT BÖLÜM BAŞLANGIÇ ---------------------------------->
+        <div class="altbolum">
+        <marquee direction=right height="90px" behavior="alternate">
+            	<img src="altbolum/izban.png" />&nbsp;&nbsp;&nbsp;&nbsp; <img src="altbolum/raysimas.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="altbolum/tcdd-tasima.png" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="altbolum/tudemsas.png"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="altbolum/tulomsas.png" /> &nbsp;&nbsp;&nbsp;&nbsp; <img src="altbolum/tuvasas.png" />&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="altbolum/uab.png" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="altbolum/uupl.png" />
+        </marquee>
+        <div class="telifhak">Bu site Sefa ANAR tarafından tasarlanıp kodlanmıştır. Her hakkı saklıdır © 2018 </div>
+      </div>
+	  <!---------------------------------------ALT BÖLÜM BİTİŞ---------------------------------------------------->
+        </div>
+    </form>
+</body>
+</html>

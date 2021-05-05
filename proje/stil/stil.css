@@ -1,0 +1,86 @@
+﻿.telifhak
+	{
+	position: absolute;
+	width: 671px;
+	height: 21px;
+	left: 280px;
+	top: 121px;
+	font-family: Verdana, Geneva, sans-serif;
+	}
+
+.govde {
+	background-color: #FFFFFF;  /*arkaplan renk*/
+	width: 1200px;			   /*genişlik değeri*/
+	margin-right: auto;		  /*dış boşluk*/
+	margin-left: auto;
+	box-shadow: 0px 2px 25px 1px lightgrey;  /*kenar gölgesi*/
+	border: 1px solid #666; /*çerçeve kalınlığı*/
+	height:auto;
+	}
+	
+.baslik {
+	width: 1200px;			   /*genişlik değeri*/
+	margin-right: auto;		  /*dış boşluk*/
+	margin-left: auto;  
+	height:160px; 		    /*yükseklik değeri*/
+	position: relative; 	/*göreceli konumlandırma*/
+	
+	}
+
+.logo {
+	width: 107px;			   /*genişlik değeri*/
+	position: absolute;		   /*serbest konumlandırma*/
+	left: 6px;
+	top: 6px;
+	height: 99px; 			   /*yükseklik değeri*/
+	}
+	
+.sosyalmedya
+	{
+	position: absolute;
+	width: 186px;
+	height: 52px;
+	left: 1009px;
+	top: 27px;		
+    }	
+
+.banner {
+	width: 215px;			   /*genişlik değeri*/
+	position: absolute; 	  /*serbest konumlandırma*/
+	bottom: 99px;
+	left: 120px;
+	font-family: Arial, Helvetica, sans-serif; /*yazı tipi*/
+	font-weight: 700;
+	color: #666;		/*yazı rengi*/
+	font-size: 22px;	/*yazı boyutu*/
+	height: 33px; 			 /*yükseklik değeri*/
+	}
+.banner1 {
+	width: 204px;			   /*genişlik değeri*/
+	position: absolute; 	  /*serbest konumlandırma*/
+	bottom: 65px;
+	left: 121px;
+	font-family: Arial, Helvetica, sans-serif; /*yazı tipi*/
+	font-weight: 700;
+	color: #666;		/*yazı rengi*/
+	font-size: 22px;	/*yazı boyutu*/
+	height: 30px; 			 /*yükseklik değeri*/
+	}
+	
+/* -------------------- alt bölüm başlangıç----------------------- */
+	.altbolum
+		{
+			clear:both;
+			width:1200px;
+			position:relative;
+			height:150px;
+			border-top:solid 3px #999;
+            top: -5px;
+            left: 0px;
+        }
+/* -------------------- alt bölüm bitiş-------------------------- */
+
+
+body {
+	background-color: #F8F8F8; /*arkaplan renk*/
+	}

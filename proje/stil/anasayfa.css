@@ -1,0 +1,74 @@
+﻿ .kutular
+    {
+        background-color: #F8F8F8; 
+        height: 600px;
+    }
+    .lojistik
+    {
+        border:1px solid #778ca3;
+        height: 324px;
+        width:256px;
+        margin-left:30px;
+        font-family:Sans-Serif;
+        float:left;
+        background-color: White; 
+    }
+    
+    .lojistik a
+    {
+       text-decoration:none;
+       color:Red;
+    }
+    
+     .limanlar
+    {
+        border:1px solid #778ca3;
+        height: 324px;
+        width:249px;
+        margin-left:30px;
+        font-family:Sans-Serif;
+        float:left;
+        background-color: White; 
+    }
+    
+     .limanlar a
+    {
+       text-decoration:none;
+       color:Red;
+    }
+    
+     .tcdd
+    {
+        border:1px solid #778ca3;
+        height: 324px;
+        width:249px;
+         margin-left:30px;
+        font-family:Sans-Serif;
+        float:left;
+        background-color: White; 
+    }
+    
+     .tcdd a
+    {
+       text-decoration:none;
+       color:Red;
+    }
+    .temizleme
+    {
+        clear:both;    
+    }
+    .hizmetler
+    { 
+        clear:both;
+        width: 821px;
+        margin-left:30px;
+        margin-top:5px;
+        height: 234px;
+        border:1px solid #778ca3;
+        background-color: White; 
+    }
+    .hizmetler a
+    {
+         margin-right:20px;
+         background-color: White;  
+    }

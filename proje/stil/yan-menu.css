@@ -1,0 +1,60 @@
+﻿/* -------------------- Yan Menu kutusu düzeni----------------------- */
+.yanmenukutusu
+	{
+	    margin-top:2px;
+		margin-bottom:2px;
+		float:left;
+		width:268px;
+		border:solid 1px #999;
+}
+/* -------------------- Yan Menu kutusu düzeni----------------------- */
+
+
+/* -------------------- sol Menu link düzeni----------------------- */	
+.solmenu a
+	{
+		text-decoration:none;
+		font-family:Verdana, Geneva, sans-serif;
+		display:block;
+		font-weight:650px;
+		font-size:20px;
+		margin-left:15px;
+		line-height:50px;
+		color:black;
+	}	
+/* -------------------- sol Menu link düzeni----------------------- */	
+
+
+/* -------------------- sol Menu düzeni----------------------- */	
+.solmenu
+	{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 268px;
+        
+}	
+/* -------------------- sol Menu düzeni----------------------- */	
+
+
+/* -------------------- sol Menu eleman düzeni----------------------- */	
+.solmenu li
+	{
+		border-bottom:solid 8px #FFFFFF;
+		border-left:solid 8px #778ca3;
+	}
+/* -------------------- sol Menu eleman düzeni----------------------- */	
+
+
+/* -------------------- sol Menu üzerine gelindğinde düzeni----------------------- */	
+.solmenu li:hover
+	{
+		border-bottom:solid 0px #FFFFFF;
+		border-left:solid 0px #778ca3;
+	}
+.solmenu a:hover
+	{
+			border-bottom:solid 10px #FFFFFF;
+			border-left:solid 10px #3498db;
+	}
+/* -------------------- sol Menu üzerine gelindğinde düzeni----------------------- */

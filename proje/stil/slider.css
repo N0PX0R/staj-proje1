@@ -1,0 +1,31 @@
+﻿/* -------------------- slider düzeni ----------------------- */	
+#slider{
+	position:relative; /* göreceli konumlandırma */
+	margin:0 auto; /* dış boşluk */
+	width:1200px; /* uzunluk */
+	height:300px; /* yükseklik */
+	overflow:hidden; /* taşma gizleme */
+	font:Verdana, Geneva, sans-serif; /* yazı tipi */
+	font-size:21px; /* yazı punto */
+		}
+/* -------------------- slider düzeni ----------------------- */	
+
+/* -------------------- kontrol düzeni----------------------- */		
+#kontrol{
+	position: absolute; /* serbest konumlandırma */
+	right: 559px;
+	bottom: 10px;
+	width: 100px; /* genişlik */
+	height: 32px; /* yükseklik*/
+	}	
+/* -------------------- kontrol düzeni ----------------------- */	
+
+/* --------------------kontrol link düzeni----------------------- */		
+#kontrol a{
+	color:#FFF; /* yazı rengi */
+	text-decoration:none; /* yazı dekorasyonu  */
+	background:black;	/* arkaplan rengi */
+	opacity:0.8;		/* şeffaflık değeri */
+	padding:5px;		/* iç boşluk */
+	}	
+/* -------------------- kontrol link düzeni ----------------------- */	
